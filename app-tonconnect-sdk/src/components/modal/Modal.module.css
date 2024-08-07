@@ -1,0 +1,19 @@
+.list {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    width: 100%;
+}
+@media (min-width: 600px) {
+    .list {
+        grid-template-columns: 3fr 3fr 3fr;
+    }
+}
+
+.item {
+}
+
+.wallet_name {
+}
+.wallet_text {
+}
